@@ -1,37 +1,110 @@
 <!DOCTYPE html>
 <html>
 <head>
+    <meta charset="UTF-8">
   <title>CV - Grupo AWS02/2023</title>
-  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+  <style>
+    body {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: 'Roboto', sans-serif;
+      background-color: #f0f4f8; /* Tom de azul claro para o fundo da página */
+    }
+
+    .header {
+      text-align: center;
+      margin-bottom: 30px;
+    }
+
+    h1 {
+      font-size: 32px;
+      color: royalblue; 
+    }
+
+    h2 {
+      font-size: 20px;
+      color: gray;
+    }
+
+    .container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      margin-top: -40px;
+    }
+
+    .box {
+      flex: 0 0 200px;
+      text-align: center;
+      margin: 10px;
+      padding: 10px;
+      background-color: #ffffff; /* Branco para os cards */
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      border-radius: 4px;
+      transition: transform 0.3s ease;
+    }
+
+    .box:hover {
+      transform: scale(1.05);
+    }
+
+    img {
+      width: 150px;
+      height: 150px;
+      object-fit: cover;
+      border-radius: 50%;
+      cursor: pointer;
+      transition: transform 0.3s ease;
+    }
+
+    img:hover {
+      transform: scale(1.1);
+    }
+
+    h3 {
+      margin-top: 10px;
+      font-size: 16px;
+      color: #1e3d58; /* Tom de azul escuro para o nome */
+    }
+
+    h4 {
+      font-size: 12px;
+      color: #4a4e69; /* Tom de azul médio para a função */
+    }
+  </style>
 </head>
 <body>
   <div class="header">
     <h1>Projeto final - currículos dos integrantes do grupo AWS02/2023.</h1>
-    <h2>Clique em cada uma das imagens abaixo, e veja o CV de cada aluno.</h2>
+    <h2>Clique em cada uma das imagens abaixo e veja o CV de cada aluno.</h2>
   </div>
   <div class="container">
     <div class="box">
-      <a href="resume/aparicio/aparicio.html"><img src="img/imagem1.jpg" alt="Imagem 1" ></a>
+      <a href="resume/aparicio/aparicio.html" target="_blank"><img src="img/aparicio_junior.jpg" alt="Imagem 1" ></a>
       <h3>Aparicio Junior</h3>
       <h4>Analista de Cloud</h4>
     </div>
     <div class="box">
-      <a href="resume/bruno/bruno.html"><img src="img/imagem1.jpg" alt="Imagem 1" ></a>
+      <a href="resume/bruno/bruno.html" target="_blank"><img src="img/bruno_binotti.jpg" alt="Imagem 1" ></a>
       <h3>Bruno Binotti</h3>
       <h4>Analista de Cloud</h4>
     </div>
     <div class="box">
-      <img src="img/imagem3.jpg" alt="Imagem 3">
+      <a href="resume/christiano/christiano.html" target="_blank"><img src="img/christiano_straehl.jpg" alt="Imagem 1" ></a>
       <h3>Christiano Straehl</h3>
       <h4>Analista de Cloud</h4>
     </div>
     <div class="box">
-      <img src="img/imagem4.jpg" alt="Imagem 4">
+      <a href="resume/beatriz/beatriz.html" target="_blank"><img src="img/beatriz_araujo.jpg" alt="Imagem 1"></a>
       <h3>Beatriz</h3>
       <h4>Analista de Cloud</h4>
     </div>
     <div class="box">
-      <img src="img/imagem4.jpg" alt="Imagem 4">
+      <a href="resume/augusto/augusto.html" target="_blank"><img src="img/augusto_oliveira.jpg" alt="Imagem 1"></a>
       <h3>Augusto Oliveira</h3>
       <h4>Analista de Cloud</h4>
     </div>
